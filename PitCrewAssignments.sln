@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarSweepTest", "tests\SonarSweepTest\SonarSweepTest.csproj", "{D3BD1E9F-0FA5-4EB3-B065-3F730E6B41A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaCucumberTest", "tests\SeaCucumberTest\SeaCucumberTest.csproj", "{3A01377D-751B-4DBB-9C40-85F153677733}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{D3BD1E9F-0FA5-4EB3-B065-3F730E6B41A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3BD1E9F-0FA5-4EB3-B065-3F730E6B41A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3BD1E9F-0FA5-4EB3-B065-3F730E6B41A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A01377D-751B-4DBB-9C40-85F153677733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A01377D-751B-4DBB-9C40-85F153677733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A01377D-751B-4DBB-9C40-85F153677733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A01377D-751B-4DBB-9C40-85F153677733}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{9D189E3D-419C-4E00-80A6-3107A306DAF7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8D5A35A1-BA50-4A76-9EFD-B1E158A1CE2A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{D3BD1E9F-0FA5-4EB3-B065-3F730E6B41A9} = {B06AAAFF-4D0C-42E3-832F-D318CB50337E}
+		{3A01377D-751B-4DBB-9C40-85F153677733} = {B06AAAFF-4D0C-42E3-832F-D318CB50337E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {858B44F5-5DAD-4590-957A-527CDA4CA843}
