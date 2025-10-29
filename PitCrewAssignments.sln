@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarSweepPuzzle", "SonarSweepPuzzle\SonarSweepPuzzle.csproj", "{9D189E3D-419C-4E00-80A6-3107A306DAF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarSweepPuzzle", "src\SonarSweepPuzzle\SonarSweepPuzzle.csproj", "{9D189E3D-419C-4E00-80A6-3107A306DAF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaCucumber", "SeaCucumber\SeaCucumber.csproj", "{8D5A35A1-BA50-4A76-9EFD-B1E158A1CE2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaCucumber", "src\SeaCucumber\SeaCucumber.csproj", "{8D5A35A1-BA50-4A76-9EFD-B1E158A1CE2A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarSweepTest", "SonarSweepTest\SonarSweepTest.csproj", "{D3BD1E9F-0FA5-4EB3-B065-3F730E6B41A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarSweepTest", "tests\SonarSweepTest\SonarSweepTest.csproj", "{D3BD1E9F-0FA5-4EB3-B065-3F730E6B41A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
