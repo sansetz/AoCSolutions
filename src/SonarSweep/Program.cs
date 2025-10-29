@@ -2,8 +2,28 @@
 
 using SonarSweep;
 
-List<int> measurements = new List<int>() { 199, 200, 208, 210, 200, 207, 240, 269, 260, 263 };
+string inputFilePath;
+int windowSize;
+if (args.Length != 2) {
+    // Use default values
+    inputFilePath = @"./input.txt";
+    windowSize = 3;
+}
+else {
+    inputFilePath = args[0];
+    int.TryParse(args[1], out windowSize);
+}
 
-Console.WriteLine("Number of increases: " + SonarSweepUtils.CountMeasurementIncreases(measurements));
+Console.WriteLine(
+    "Number of increases: " + SonarSweepUtils.CountMeasurementIncreases(
+        SonarSweepUtils.ReadInput(inputFilePath)
+    )
+);
+
+Console.WriteLine(
+    "Number of window increases: " + SonarSweepUtils.CountMeasurementWindowIncreases(
+        SonarSweepUtils.ReadInput(inputFilePath), windowSize
+    )
+);
 
 
