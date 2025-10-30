@@ -37,8 +37,8 @@
             int count = 0;
 
             for (int i = 0; i <= measurements.Count - windowSize - 1; i++) {
-                int window1Sum = 0;
-                int window2Sum = 0;
+                long window1Sum = 0;
+                long window2Sum = 0;
                 for (int j = 0; j < windowSize; j++) {
                     window1Sum += measurements[i + j];
                     window2Sum += measurements[i + j + 1];

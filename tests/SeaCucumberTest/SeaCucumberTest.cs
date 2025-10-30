@@ -1,7 +1,7 @@
 ﻿using SeaCucumber;
 
 namespace SeaCucumberTest {
-    public class SonarSweepTests {
+    public class SeaCucumberTests {
 
         [Fact]
         public void TestPart1WithAoCData() {
