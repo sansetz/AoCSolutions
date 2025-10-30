@@ -2,7 +2,7 @@
 
 Solutions for Advent of Code, developped in **C# (.NET 9)** 
 
-For practice purposes, I solved the Advent of Code puzzles using clean code principles and testable architecture.
+For me, the puzzles are a way to practice my skills in both C# and xUnit testing.
 
 Puzzles solved so far:
 - 2021: Day 1, part 1 and 2
