@@ -37,11 +37,10 @@
             if (printStepMaps)
                 PrintSeaCucumberMap(countSteps, seaCucumberMap);
             while (canMove) {
+                countSteps++;
                 movedEast = MoveCucumbersEast(ref seaCucumberMap);
                 movedSouth = MoveCucumbersSouth(ref seaCucumberMap);
                 canMove = movedEast || movedSouth;
-                if (canMove)
-                    countSteps++;
             }
             if (printStepMaps)
                 PrintSeaCucumberMap(countSteps, seaCucumberMap);

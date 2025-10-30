@@ -23,8 +23,8 @@ namespace SeaCucumberTest {
 
         [Theory]
         [InlineData(new string[] { }, 0)]                // no data
-        [InlineData(new string[] { "........." }, 0)]    // no cucumbers
-        [InlineData(new string[] { ">>>>>>>>>" }, 0)]    // no empty spots
+        [InlineData(new string[] { "........." }, 1)]    // no cucumbers
+        [InlineData(new string[] { ">>>>>>>>>" }, 1)]    // no empty spots
         public void TestPart1ForVariousEdgeCaseData(string[] input, int expectedResult) {
             int result = SeaCucumberUtils.MoveCucumbers(input, false);
             Assert.Equal(expectedResult, result);

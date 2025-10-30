@@ -1,12 +1,10 @@
 ﻿# Advent of Code Solutions – Sandra Setz
 
-Oplossingen voor twee Advent of Code puzzels, uitgewerkt in **C# (.NET 9)** 
+Solutions for Advent of Code, developped in **C# (.NET 9)** 
 
+For practice purposes, I solved the Advent of Code puzzles using clean code principles and testable architecture.
 
-Alle voorbeeld- en regressietests zijn opgenomen in `Advent.Tests`.  
-De puzzels gebruiken de officiële Advent of Code input-bestanden, en de functies zijn zo opgezet dat ze eenvoudig te hergebruiken of te mocken zijn.
+Puzzles solved so far:
+- 2021: Day 1, part 1 and 2
+- 2021: Day 25, part 1
 
----
-
-<sub>Repo: [github.com/sansetz/PitCrewAssignments](https://github.com/sansetz/PitCrewAssignments)</sub>  
-<sub>© 2025 Sandra Setz — gemaakt voor demonstratie van codekwaliteit en testbare architectuur.</sub>
