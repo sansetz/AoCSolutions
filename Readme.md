@@ -1,4 +1,4 @@
-﻿# Advent of Code Solutions – Sandra Setz
+﻿# Advent of Code Solutions
 
 Solutions for Advent of Code, developped in **C# (.NET 9)** 
 
